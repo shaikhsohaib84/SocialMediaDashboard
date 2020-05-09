@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainCss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Social Media Dashboard</title>
+</head>
+<body>
+    <script>
+        function myFunction() {
+   var element = document.body;/*for toggle button*/
+   element.classList.toggle("dark-mode");
+
+   var c1 = document.getElementById("card1-drk");/*for card1*/
+   var c2 = document.getElementById("card2-drk");/*for card2*/
+   var c3 = document.getElementById("card3-drk");/*for card3*/
+   var c4 = document.getElementById("card4-drk");/*for card4*/
+   c1.classList.toggle("box-dark");
+   c2.classList.toggle("box-dark");
+   c3.classList.toggle("box-dark");
+   c4.classList.toggle("box-dark");
+
+   var txtcolour = document.getElementById("header2");
+   txtcolour.classList.toggle("color-text");
+   
+  
+    
+   var s1 = document.getElementById("s1");
+   var s2 = document.getElementById("s2");
+   var s3 = document.getElementById("s3");
+   var s4 = document.getElementById("s4");
+   var s5 = document.getElementById("s5");
+   var s6 = document.getElementById("s6");
+   var s7 = document.getElementById("s7");
+   var s8 = document.getElementById("s8");
+
+   s1.classList.toggle("small-boxcolor-dark");
+   s2.classList.toggle("small-boxcolor-dark");
+   s3.classList.toggle("small-boxcolor-dark");
+   s4.classList.toggle("small-boxcolor-dark");
+   s5.classList.toggle("small-boxcolor-dark");
+   s6.classList.toggle("small-boxcolor-dark");
+   s7.classList.toggle("small-boxcolor-dark");
+   s8.classList.toggle("small-boxcolor-dark");
+
+   var header3 = document.getElementById("header3");
+   header3.classList.toggle("header3-color");
+
+   var viewnumber1 = document.getElementById("view-number1");
+   var viewnumber2 = document.getElementById("view-number2");
+   var viewnumber3 = document.getElementById("view-number3");
+   var viewnumber4 = document.getElementById("view-number4");
+   var viewnumber5 = document.getElementById("view-number5");
+   var viewnumber6 = document.getElementById("view-number6");
+   var viewnumber7 = document.getElementById("view-number7");
+   var viewnumber8 = document.getElementById("view-number8");
+   viewnumber1.classList.toggle("header3-color");
+   viewnumber2.classList.toggle("header3-color");
+   viewnumber3.classList.toggle("header3-color");
+   viewnumber4.classList.toggle("header3-color");
+   viewnumber5.classList.toggle("header3-color");
+   viewnumber6.classList.toggle("header3-color");
+   viewnumber7.classList.toggle("header3-color");
+   viewnumber8.classList.toggle("header3-color");
+        
+  
+    }
+
+    </script>
+
+    <header>
+        <h2 id="header2">Social Media Dashboard</h2>
+        <h7>Total Followers:23,004</h7>
+        <div class="toggle-button">
+            <h4>Dark Mode</h4>
+            <label class="switch">
+                <input type="checkbox" onclick="myFunction()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+
+    <div class="boxes">
+
+        <div class="box fb-line" id="card1-drk">
+            <div class="in-box">
+                <div class="fb-id">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#178FF5" d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"/></svg>
+                    <div class="ID">@nathanf</div>
+                </div>
+                <h1 id="header2">1987</h1>
+                <p class="follower">FOLLOWERS</p>
+                <div class="green-status">
+                    <svg class="up-down-svg" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+                    <p class="green-txt">12 Today</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tw-line" id="card2-drk">
+            <div class="in-box">
+                <div class="tw-id">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#1DA1F2" d="M20 1.924a8.192 8.192 0 01-2.357.646A4.11 4.11 0 0019.448.3a8.22 8.22 0 01-2.606.996A4.096 4.096 0 0013.847 0c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 011.392.752a4.109 4.109 0 001.27 5.478 4.086 4.086 0 01-1.858-.513C.76 7.616 2.122 9.395 4.095 9.79a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.833 2.849A8.25 8.25 0 010 14.41a11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.663-12.205A8.354 8.354 0 0020 1.924z"/></svg>
+                    <div class="ID">@nathanf</div>
+                </div>
+                <h1 id="header2">1044</h1>
+                <p class="follower">FOLLOWERS</p>
+                <div class="green-status">
+                    <svg class="up-down-svg" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+                    <p class="green-txt">99 Today</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box in-line" id="card3-drk">
+            <div class="in-box ">
+                <div class="in-id ">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#DF4896"/><stop offset="50.913%" stop-color="#EE877E"/><stop offset="100%" stop-color="#FDC366"/></linearGradient></defs><path fill="url(#a)" d="M10 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.717-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058zM10 0C7.284 0 6.944.012 5.878.06 2.246.227.228 2.242.06 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.629-.167 5.652-2.182 5.816-5.817.05-1.066.061-1.407.061-4.123s-.012-3.056-.06-4.122C19.777 2.249 17.76.228 14.124.06 13.057.01 12.716 0 10 0zm0 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.338-9.87a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg>
+                    <div class="ID">@nathanf</div>
+                </div>
+                <h1 id="header2">11k</h1>
+                <p class="follower">FOLLOWERS</p>
+                <div class="green-status">
+                    <svg class="up-down-svg" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+                    <p class="green-txt">1099 Today</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box yt-line" id="card4-drk">
+            <div class="in-box">
+                <div class="yt-id">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#C4032B" d="M10 0C4.478 0 0 4.478 0 10c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.7 14.077c-1.75.12-5.652.12-7.402 0-1.896-.13-2.117-1.059-2.131-4.077.014-3.024.237-3.947 2.131-4.077 1.75-.12 5.652-.12 7.403 0 1.897.13 2.117 1.059 2.132 4.077-.015 3.024-.237 3.947-2.132 4.077zM8.334 8.048l4.098 1.949-4.098 1.955V8.048z"/></svg>
+                    <div class="ID">Nathan F.</div>
+                </div>
+                <h1 id="header2">8239</h1>
+                <p class="follower">SUBSCRIBERS</p>
+                <div class="red-status green-status">
+                    <svg class="up-down-svg" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+                    <p class="red-txt">144 Today</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overview">
+        <h3 id="header3">Overview &nbsp; - &nbsp; Today </h3>
+        <div class="small-box-group">
+
+            <div class="small-box" id="s1">
+                <div class="adder">
+                    <div class="upper">
+                        <p>Page Views</p>
+                        <svg class="small-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#178FF5" d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"/></svg>
+                    </div>
+                    <div class="lower">    
+                        <h2 id="view-number1" class="view-number">87</h2>
+                        <div class="small-status">
+                            <svg class="up-down" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+                            <p class="small-green-txt">3%</p>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+
+            <div class="small-box" id="s2">
+                <div class="adder">
+                    <div class="upper">
+                        <p>Likes</p>
+                        <svg class="small-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#178FF5" d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"/></svg>
+                    </div>
+                    <div class="lower">
+                        <h2 id="view-number2" class="view-number">52</h2>
+                        <div class="small-status">
+                            <svg class="up-down" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+                            <p class="small-red-txt">2%</p>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+
+            <div class="small-box" id="s3">
+                <div class="adder">
+                    <div class="upper">
+                        <p>Likes</p>
+                        <svg class="small-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#DF4896"/><stop offset="50.913%" stop-color="#EE877E"/><stop offset="100%" stop-color="#FDC366"/></linearGradient></defs><path fill="url(#a)" d="M10 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.717-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058zM10 0C7.284 0 6.944.012 5.878.06 2.246.227.228 2.242.06 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.629-.167 5.652-2.182 5.816-5.817.05-1.066.061-1.407.061-4.123s-.012-3.056-.06-4.122C19.777 2.249 17.76.228 14.124.06 13.057.01 12.716 0 10 0zm0 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.338-9.87a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg>
+                    </div>
+                    <div class="lower">    
+                        <h2 id="view-number3" class="view-number">5462</h2>
+                        <div class="small-status">
+                            <svg class="up-down" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+                            <p class="small-green-txt">2257%</p>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+
+            <div class="small-box" id="s4">
+                <div class="adder">
+                    <div class="upper">
+                        <p>Profile Views</p>
+                        <svg class="small-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#DF4896"/><stop offset="50.913%" stop-color="#EE877E"/><stop offset="100%" stop-color="#FDC366"/></linearGradient></defs><path fill="url(#a)" d="M10 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.717-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058zM10 0C7.284 0 6.944.012 5.878.06 2.246.227.228 2.242.06 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.629-.167 5.652-2.182 5.816-5.817.05-1.066.061-1.407.061-4.123s-.012-3.056-.06-4.122C19.777 2.249 17.76.228 14.124.06 13.057.01 12.716 0 10 0zm0 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.338-9.87a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg>
+                    </div>
+                    <div class="lower">    
+                        <h2 id="view-number4" class="view-number">52K</h2>
+                        <div class="small-status">
+                            <svg class="up-down" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+                            <p class="small-green-txt">1375%</p>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+
+            <div class="small-box" id="s5">
+                <div class="adder">
+                    <div class="upper">
+                        <p>Retweets</p>
+                        <svg class="small-img" xmlns="http://www.w3.org/2000/svg" width="20" height="17"><path fill="#1DA1F2" d="M20 1.924a8.192 8.192 0 01-2.357.646A4.11 4.11 0 0019.448.3a8.22 8.22 0 01-2.606.996A4.096 4.096 0 0013.847 0c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 011.392.752a4.109 4.109 0 001.27 5.478 4.086 4.086 0 01-1.858-.513C.76 7.616 2.122 9.395 4.095 9.79a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.833 2.849A8.25 8.25 0 010 14.41a11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.663-12.205A8.354 8.354 0 0020 1.924z"/></svg>
+                    </div>
+                    <div class="lower">    
+                        <h2 id="view-number5" class="view-number">117</h2>
+                        <div class="small-status">
+                            <svg class="up-down" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+                            <p class="small-green-txt">303%</p>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+
+            <div class="small-box" id="s6">
+                <div class="adder">
+                    <div class="upper">
+                        <p>Likes</p>
+                        <svg class="small-img" xmlns="http://www.w3.org/2000/svg" width="20" height="17"><path fill="#1DA1F2" d="M20 1.924a8.192 8.192 0 01-2.357.646A4.11 4.11 0 0019.448.3a8.22 8.22 0 01-2.606.996A4.096 4.096 0 0013.847 0c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 011.392.752a4.109 4.109 0 001.27 5.478 4.086 4.086 0 01-1.858-.513C.76 7.616 2.122 9.395 4.095 9.79a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.833 2.849A8.25 8.25 0 010 14.41a11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.663-12.205A8.354 8.354 0 0020 1.924z"/></svg>
+                    </div>
+                    <div class="lower">    
+                        <h2 id="view-number6" class="view-number">507</h2>
+                        <div class="small-status">
+                            <svg class="up-down" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+                            <p class="small-green-txt">553%</p>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+
+            <div class="small-box" id="s7">
+                <div class="adder">
+                    <div class="upper">
+                        <p>Likes</p>
+                        <svg class="small-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#C4032B" d="M10 0C4.478 0 0 4.478 0 10c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.7 14.077c-1.75.12-5.652.12-7.402 0-1.896-.13-2.117-1.059-2.131-4.077.014-3.024.237-3.947 2.131-4.077 1.75-.12 5.652-.12 7.403 0 1.897.13 2.117 1.059 2.132 4.077-.015 3.024-.237 3.947-2.132 4.077zM8.334 8.048l4.098 1.949-4.098 1.955V8.048z"/></svg>
+                    </div>
+                    <div class="lower">    
+                        <h2 id="view-number7" class="view-number">107</h2>
+                        <div class="small-status">
+                            <svg class="up-down" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+                            <p class="small-red-txt">19%</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="small-box" id="s8">
+                <div class="adder">
+                    <div class="upper">
+                        <p>Total Views</p>
+                        <svg class="small-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#C4032B" d="M10 0C4.478 0 0 4.478 0 10c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.7 14.077c-1.75.12-5.652.12-7.402 0-1.896-.13-2.117-1.059-2.131-4.077.014-3.024.237-3.947 2.131-4.077 1.75-.12 5.652-.12 7.403 0 1.897.13 2.117 1.059 2.132 4.077-.015 3.024-.237 3.947-2.132 4.077zM8.334 8.048l4.098 1.949-4.098 1.955V8.048z"/></svg>
+                    </div>
+                    <div class="lower">
+                        <h2 id="view-number8" class="view-number">1407</h2>
+                        <div class="small-status">
+                            <svg class="up-down" xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+                            <p class="small-green-txt">12%</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <h4>@Frontend Mentor @SohaibShaikh</h4>
+    </footer>
+</body>
+</html>
